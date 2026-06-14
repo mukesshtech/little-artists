@@ -1,0 +1,8 @@
+{
+  "appId": "com.littleartists.kids",
+  "appName": "Little Artists",
+  "webDir": "public",
+  "android": {
+    "allowMixedContent": true
+  }
+}

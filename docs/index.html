@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" />
+  <meta name="theme-color" content="#ff7a59" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="apple-touch-icon" href="icon.svg" />
+  <title>🎨 Little Artists</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- HOME -->
+  <section id="home" class="screen active">
+    <div class="title">🎨 Little <span>Artists</span></div>
+    <p class="subtitle">Color • Draw • Learn • Play</p>
+    <div class="tiles">
+      <button class="tile t1" data-go="colorPick"><span class="ico">🖍️</span><span class="lbl">Coloring Book</span></button>
+      <button class="tile t2" data-go="draw"><span class="ico">✏️</span><span class="lbl">Free Draw</span></button>
+      <button class="tile t3" data-go="learn"><span class="ico">🔤</span><span class="lbl">Learning</span></button>
+      <button class="tile t4" data-go="gallery"><span class="ico">🖼️</span><span class="lbl">My Gallery</span></button>
+    </div>
+    <button id="soundToggle" class="soundbtn">🔊 Sound: On</button>
+  </section>
+
+  <!-- CHOOSE A COLORING PAGE -->
+  <section id="colorPick" class="screen">
+    <div class="topbar"><button class="back" data-go="home">⬅️</button><div class="bartitle">Pick a Picture</div><div style="width:54px"></div></div>
+    <div id="pickGrid" class="pickgrid"></div>
+  </section>
+
+  <!-- COLORING / DRAW CANVAS (shared) -->
+  <section id="color" class="screen paint">
+    <div class="topbar">
+      <button class="back" data-go="colorPick">⬅️</button>
+      <div class="bartitle" id="colorTitle">Color it!</div>
+      <button id="cSave" class="savebtn">💾</button>
+    </div>
+    <div class="stage"><canvas id="cCanvas"></canvas></div>
+    <div class="tools" id="cTools"></div>
+  </section>
+
+  <section id="draw" class="screen paint">
+    <div class="topbar">
+      <button class="back" data-go="home">⬅️</button>
+      <div class="bartitle">Free Draw</div>
+      <button id="dSave" class="savebtn">💾</button>
+    </div>
+    <div class="stage"><canvas id="dCanvas"></canvas></div>
+    <div class="tools" id="dTools"></div>
+  </section>
+
+  <!-- LEARNING MENU -->
+  <section id="learn" class="screen">
+    <div class="topbar"><button class="back" data-go="home">⬅️</button><div class="bartitle">Learning Fun</div><div style="width:54px"></div></div>
+    <div class="tiles learn">
+      <button class="tile t1" data-learn="abc"><span class="ico">🔠</span><span class="lbl">ABC</span></button>
+      <button class="tile t2" data-learn="num"><span class="ico">🔢</span><span class="lbl">123</span></button>
+      <button class="tile t3" data-learn="shape"><span class="ico">⭐</span><span class="lbl">Shapes</span></button>
+      <button class="tile t4" data-learn="animal"><span class="ico">🐶</span><span class="lbl">Animals</span></button>
+    </div>
+  </section>
+
+  <!-- LEARNING GRID -->
+  <section id="learnGrid" class="screen">
+    <div class="topbar"><button class="back" data-go="learn">⬅️</button><div class="bartitle" id="learnTitle">Learn</div><div style="width:54px"></div></div>
+    <div id="lGrid" class="lgrid"></div>
+  </section>
+
+  <!-- LEARNING BIG VIEW -->
+  <section id="learnView" class="screen lview">
+    <div class="topbar"><button class="back" id="lvBack">⬅️</button><div class="bartitle" id="lvTitle"></div><div style="width:54px"></div></div>
+    <div class="lvbox">
+      <div id="lvBig" class="lvbig"></div>
+      <div id="lvWord" class="lvword"></div>
+      <div id="lvCount" class="lvcount"></div>
+      <button id="lvSpeak" class="speakbtn">🔊 Say it again</button>
+      <div class="lvnav"><button id="lvPrev" class="navbtn">⬅️ Prev</button><button id="lvNext" class="navbtn">Next ➡️</button></div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section id="gallery" class="screen">
+    <div class="topbar"><button class="back" data-go="home">⬅️</button><div class="bartitle">My Gallery</div><div style="width:54px"></div></div>
+    <div id="galGrid" class="galgrid"></div>
+    <p id="galEmpty" class="empty">No art yet! Color or draw, then tap 💾 to save it here. 🎨</p>
+  </section>
+
+  <div id="confetti"></div>
+
+  <script src="app.js"></script>
+  <script>if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(() => {});</script>
+</body>
+</html>

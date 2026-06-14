@@ -1,0 +1,73 @@
+==========================================================
+  GOOGLE PLAY — STORE LISTING for "Little Artists"
+  Copy-paste these into Play Console. Edit email/links first.
+==========================================================
+
+APP NAME (max 30 chars):
+Little Artists: Color & Learn
+
+SHORT DESCRIPTION (max 80 chars):
+Coloring book, free drawing & fun learning for kids. No ads, fully offline.
+
+FULL DESCRIPTION (max 4000 chars):
+----------------------------------------------------------
+Little Artists is a safe, ad-free creativity and learning app made just for kids! 🎨
+
+Your little one can color, draw, paint and learn — all in one cheerful, easy-to-use app that works completely offline.
+
+🖍️ COLORING BOOK
+• 14 fun pictures — cat, fish, car, rocket, butterfly, apple, ice cream and more
+• Magic one-tap colour fill — just tap an area to fill it
+• Brushes, stickers and an eraser too
+
+✏️ FREE DRAW & PAINT
+• A blank canvas for big imaginations
+• Crayon, marker, glowing neon and rainbow brushes
+• 16 bright colours, 3 brush sizes, fun stickers
+
+🔤 FUN LEARNING (with sound!)
+• ABC — letters with words and pictures
+• 123 — numbers and counting
+• Shapes and Animals (hear the animal sounds!)
+• Friendly talking voice helps kids learn by listening
+
+🖼️ MY GALLERY
+• Save artwork with one tap
+• View, delete and share creations with family
+
+WHY PARENTS LOVE IT
+✓ 100% kid-safe — NO ads, NO pop-ups
+✓ NO internet needed — play anywhere
+✓ NO sign-up, NO data collection, NO in-app purchases
+✓ Simple, colourful design for ages 2–8
+
+Download Little Artists and let the creativity begin! 🌈
+----------------------------------------------------------
+
+CATEGORY: Education (or Kids)
+TAGS: kids, coloring, drawing, learning, ABC, paint
+CONTENT RATING: Everyone
+TARGET AUDIENCE: Ages 2-8 (Designed for Families / Teacher Approved track)
+
+PRIVACY POLICY URL:
+  Host the included privacy-policy.html on a public URL and paste it here.
+  (e.g. GitHub Pages, Netlify Drop, or your own site.)
+
+DATA SAFETY FORM ANSWERS:
+  • Does your app collect or share user data?  -> NO
+  • Is all data encrypted in transit?           -> N/A (no data collected)
+  • Do you provide a way to delete data?         -> Data is on-device only;
+                                                    uninstalling removes it.
+
+ASSETS IN THIS FOLDER:
+  app-icon-512.png ............ High-res app icon (512x512)
+  feature-graphic-1024x500.png  Feature graphic (required)
+  screenshot-1-home.png ....... Phone screenshot (1080x1920)
+  screenshot-2-coloring.png ... Phone screenshot
+  screenshot-3-draw.png ....... Phone screenshot
+  screenshot-4-learning.png ... Phone screenshot
+  (Upload at least 2 screenshots; all 4 recommended.)
+
+APP BUNDLE TO UPLOAD:
+  LittleArtists.aab  (on your Desktop)
+==========================================================

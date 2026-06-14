@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2732 2732">
+  <rect width="2732" height="2732" fill="#fff7e6"/>
+  <g transform="translate(1366,1180) scale(2.0) translate(-256,-256)">
+    <rect width="512" height="512" rx="110" fill="#ff7a59"/>
+    <rect x="64" y="78" width="384" height="356" rx="44" fill="#fff7e6"/>
+    <circle cx="170" cy="186" r="40" fill="#ff5a5f"/>
+    <circle cx="300" cy="160" r="40" fill="#ffb703"/>
+    <circle cx="372" cy="262" r="40" fill="#2ec4b6"/>
+    <circle cx="210" cy="300" r="40" fill="#4361ee"/>
+    <circle cx="318" cy="332" r="40" fill="#8338ec"/>
+    <rect x="120" y="372" width="272" height="26" rx="13" fill="#2b2d42"/>
+    <path d="M300 372 l44 -150 26 14 -44 150z" fill="#ffd166" stroke="#2b2d42" stroke-width="8"/>
+    <path d="M300 372 l-14 26 40 -12z" fill="#2b2d42"/>
+  </g>
+  <text x="1366" y="2050" font-family="Comic Sans MS, sans-serif" font-size="150" font-weight="900" fill="#ff5a5f" text-anchor="middle">Little Artists</text>
+</svg>
